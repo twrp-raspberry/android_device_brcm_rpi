@@ -42,7 +42,6 @@ TARGET_RECOVERY_FSTAB := device/brcm/rpi/recovery.fstab
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 
 # TWRP
-TW_BRIGHTNESS_PATH := "/sys/class/backlight/rpi_backlight/brightness"
 TW_EXCLUDE_MTP := true
 TW_EXCLUDE_TWRPAPP := true
 TW_EXTERNAL_STORAGE_PATH := "/usb"
